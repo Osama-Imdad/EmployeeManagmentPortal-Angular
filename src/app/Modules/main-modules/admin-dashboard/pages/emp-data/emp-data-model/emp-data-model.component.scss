@@ -1,0 +1,30 @@
+textarea {
+  height: 60px;
+}
+.imageUpload {
+  position: relative;
+  height: 20px;
+  background-color: transparent;
+}
+.imageUpload :hover {
+  cursor: pointer;
+  content: "/f030";
+  background-color: aqua;
+}
+
+.custom-file .custom-file-label {
+  border: 0;
+  padding: 10px 30px;
+  background: #f4ca26;
+  color: black;
+  min-height: 42px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  cursor: pointer;
+  border-radius: 18px;
+}
+label {
+  font-weight: bold;
+  color: #343a40;
+}

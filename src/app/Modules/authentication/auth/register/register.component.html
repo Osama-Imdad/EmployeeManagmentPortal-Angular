@@ -1,0 +1,109 @@
+<form action="" class="" [formGroup]="RegisterForm" (submit)="onSubmit()" style="    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;">
+  <div class="container registration form-group justify-content-center reg-form" style="margin: 20px auto">
+    <div class="my-auto shadow card" style="padding: 20px">
+      <div class="py-2 text-center">
+        <i class="fas fa-lock"></i>
+      </div>
+      <div class="py-2 row">
+        <div class="col-md-6 col-sm-12">
+          <label for="fname">First Name</label>
+          <input type="text" class="form-control" formControlName="firstName" id="fname" placeholder="Enter First Name"
+            [ngClass]="{ 'is-invalid': submitted && f['firstName'].errors }" />
+          <div *ngIf="submitted && f['firstName'].errors" class="invalid-feedback">
+            <div *ngIf="f['firstName'].errors['required']">
+              First Name is required
+            </div>
+            <div *ngIf="f['firstName'].errors['minlength']">
+              First Name At-least 2 character
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <label for="lname">Last Name</label>
+          <input type="text" class="form-control" formControlName="lastName" name="lastName" id="lname"
+            placeholder="Enter Last Name" formControlName="lastName"
+            [ngClass]="{ 'is-invalid': submitted && f['lastName'].errors }" />
+          <div *ngIf="submitted && f['lastName'].errors" class="invalid-feedback">
+            <div *ngIf="f['lastName'].errors['required']">Last Name is required</div>
+            <div *ngIf="f['lastName'].errors['minlength']">
+              Last Name Atleast 2 charachter
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-2 row">
+        <div class="col-12">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" formControlName="email" name="email" id="email"
+            placeholder="Enter Email" formControlName="email"
+            [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" />
+          <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+            <div *ngIf="f['email'].errors['required']">Email is required</div>
+          </div>
+        </div>
+      </div>
+      <div class="py-2 row">
+        <div class="col-md-6 col-sm-12">
+          <label for="password">Password </label>
+          <input type="password" class="form-control" formControlName="password" name="password" id="password"
+            placeholder="Enter Password" formControlName="password"
+            [ngClass]="{ 'is-invalid': submitted && f['password'].errors }" />
+          <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+            <div *ngIf="f['password'].errors['required']">Password is required</div>
+            <div *ngIf="f['password'].errors['minlength']">
+              Password Atleast 8 character
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" class="form-control" formControlName="confirmPassword" name="confirmPassword"
+            id="confirmPassword" placeholder=" Confirm Password" formControlName="confirmPassword"
+            [ngClass]="{ 'is-invalid': submitted && f['confirmPassword'].errors }" />
+          <div *ngIf="submitted && f['confirmPassword'].errors" class="invalid-feedback">
+            <div *ngIf="f['confirmPassword']errors['required']" class="errorMsg">
+              Confirm Password is required
+            </div>
+            <div *ngIf="f['confirmPassword']errors['notSame']" class="errorMsg">
+              Password does not Match
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-2 row">
+        <div class="col-12">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" formControlName="address" name="address" id="address"
+            placeholder="Enter Address" formControlName="address"
+            [ngClass]="{ 'is-invalid': submitted && f['address'].errors }" />
+          <div *ngIf="submitted && f['address'].errors" class="invalid-feedback">
+            <div *ngIf="f['address'].errors['required']">Address is required</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" name="" formControlName="checkTOC" id="" class="d-inline"
+          [ngClass]="{ 'is-invalid': submitted && f['checkTOC'].errors }" />
+        <span>
+          <p class="d-inline px-1">
+            I have read and agree to Terms and conditions
+          </p>
+        </span>
+        <div *ngIf="submitted && f['checkTOC'].errors" class="invalid-feedback">
+          <div *ngIf="f['checkTOC'].errors['required']">Accept TOC to continue</div>
+        </div>
+      </div>
+
+      <button [disabled]="loading" class="my-2 register-btn" type="submit">
+        <span *ngIf="loading" class="mr-1 spinner-border spinner-border-sm"></span>Register Now
+      </button>
+      <h4 class="py-2 text-center">
+        Already Have Account?
+        <small routerLink="../login">Login Now</small>
+      </h4>
+    </div>
+  </div>
+</form>

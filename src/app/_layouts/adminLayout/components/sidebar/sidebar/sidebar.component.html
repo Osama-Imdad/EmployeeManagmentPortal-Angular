@@ -1,0 +1,31 @@
+<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed' : ''">
+  <div class="logo-container">
+    <button class="logo" (click)="toggleCollapse()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="logo-text" *ngIf="collapsed">Aksa-SDS</div>
+    <button class="btn-closed" *ngIf="collapsed" (click)="closeSidenav()">
+      <i class="fal fa-times close-icon"></i>
+    </button>
+  </div>
+  <ul class="sidenav-nav">
+    <li class="sidenav-nav-item" *ngFor="let item of navData">
+      <a [routerLink]="[item.routerLink]" class="sidenav-nav-link" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+        <i class="sidenav-link-icon" [class]="item.icon"></i>
+
+        <span class="sidenav-link-text" *ngIf="collapsed">{{
+          item.label
+          }}</span>
+      </a>
+    </li>
+
+    <li class="sidenav-nav-item">
+      <a (click)="signOut()" class="sidenav-nav-link sigin_out" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+        <i class="sidenav-link-icon fas fa-sign-out"></i>
+        <span class="sidenav-link-text" *ngIf="collapsed"> Sign Out </span>
+      </a>
+    </li>
+  </ul>
+</div>
