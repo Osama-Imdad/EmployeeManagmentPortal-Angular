@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   // api_url: 'http://localhost:3000/app/v1/',
-  api_url:"https://ec5c-203-215-160-163.ap.ngrok.io/api/v1/",
-  // api_url:"https://localhost:7104/api/v1/"
+  // api_url:"https://ec5c-203-215-160-163.ap.ngrok.io/api/v1/",
+  api_url:"https://localhost:7104/api/v1/"
   // api_url: 'https://app-hbkportfolio.herokuapp.com/app/v1/'
   // api_url: 'http://192.168.0.109:3000/app/v1/',
 

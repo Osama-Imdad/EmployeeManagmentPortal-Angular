@@ -50,6 +50,9 @@ loginUser(){
         // alert(res.message)
         this.router.navigate(['admin'])
       }
+      else {
+        this.toastr.error(res.message)
+      }
     },
     error: (res:any)=>{
       debugger
