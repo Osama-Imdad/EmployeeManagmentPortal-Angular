@@ -1,0 +1,44 @@
+<div class="navBar">
+  <div class="profileSec">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/48px-User_icon_2.svg.png?20070812155648"
+      alt="" (click)="myAccount()" />
+  </div>
+</div>
+<div class="my-account animate__fadeInDown" *ngIf="accountToggle == true">
+  <div class="account-details">
+    <div class="account-content">
+      <img src="../../../../../assets/images/Male Vector.png" alt="" width="50px" height="50px" />
+      <h3 class="animate__flash">Aksa-SDS</h3>
+      <p>Build By <strong>Osama Imdad</strong></p>
+    </div>
+    <div class="my-account-btn ">
+      <ul>
+        <li #myAccount>
+          <span><i class="fa-solid fa-gear mx-2"></i></span>
+          <a href="www.google.com" class="acction-list">My Account</a>
+        </li>
+
+        <li #changePassword>
+          <span><i class="fa-solid fa-key mx-2"></i></span>
+          <a href="www.google.com" class="acction-list">Change Password</a>
+        </li>
+
+        <li #logout>
+          <span><i class="fa-solid fa-arrow-right-to-bracket mx-2"></i></span>
+          <a href="www.google.com" class="acction-list">log Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<ng-template pTemplate="myAccount">
+  <!-- <app-user-account-info></app-user-account-info> -->
+</ng-template>
+<ng-template pTemplate="changePassword">
+  <!-- <app-user-change-password></app-user-change-password> -->
+</ng-template>
+<ng-template pTemplate="logout">
+  <!-- <app-user-confirmation-service></app-user-confirmation-service> -->
+</ng-template>

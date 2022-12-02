@@ -1,0 +1,22 @@
+{
+  "experiences": [
+    {
+      "companyName": "Solis Solution",
+      "dateFrom": "Aug-2021",
+      "dateTo": "Nov-2021",
+      "jobDescription": "Works as Front End Developer,Responsibility includes Learning and Maintenance of Angular Application. Developing the Pixel Perfect Front-End Designs. Collaborate with Backend Team for REST-Full Api integrations."
+    },
+    {
+      "companyName": "AIOU H-8 Islamabad",
+      "dateFrom": "April-2018 ",
+      "dateTo": "Oct-2020",
+      "jobDescription": "Work in Degree Verification section as a computer consultant, Responsibility including maintaining records of degree & certificate verification generating reports from oracle database,maintaining and updating records on website."
+    },
+    {
+      "companyName": "E-Pakistan",
+      "dateFrom": "Feb 2017 ",
+      "dateTo": "Aug 2018",
+      "jobDescription": "Work as volunteer in different social work for promoting E learning under UN SDG goals."
+    }
+  ]
+}

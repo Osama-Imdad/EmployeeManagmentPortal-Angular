@@ -1,0 +1,32 @@
+{
+  "my_services": [
+    {
+      "_id": "01",
+      "title": "Web Development",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OF1UvvtDlfcz6E1ebyJljP2x7wlJexWirpYLfnCWF63JCGxc",
+      "detail": "I have been working on web design for 10 years.",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "02",
+      "title": "Web Designing",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OF1UvvtDlfcz6E1ebyJljP2x7wlJexWirpYLfnCWF63JCGxc",
+      "detail": "I have been working on web design for 10 years.",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "03",
+      "title": "E-Commence & Affiliated Marketing",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OF1UvvtDlfcz6E1ebyJljP2x7wlJexWirpYLfnCWF63JCGxc",
+      "detail": "I have been working on web design for 10 years.",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "04",
+      "title": "MEAN Stack",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OF1UvvtDlfcz6E1ebyJljP2x7wlJexWirpYLfnCWF63JCGxc",
+      "detail": "I have been working on web design for 10 years.",
+      "createdAt": "15-04-2022"
+    }
+  ]
+}

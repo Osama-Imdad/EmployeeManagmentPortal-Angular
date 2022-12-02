@@ -1,0 +1,67 @@
+{
+  "skiils": [
+    {
+      "_id": "01",
+      "title": "WordPress",
+      "catagories": "Designing",
+      "skillVaule": "70",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "02",
+      "title": "WIX",
+      "catagories": "Designing",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "03",
+      "title": "Shopify",
+      "catagories": "Designing",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "04",
+      "title": "HTML 5",
+      "catagories": "Front Web Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "04",
+      "title": "CSS 3",
+      "catagories": "Front Web Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "06",
+      "title": "Angular",
+      "catagories": "Front Web Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "08",
+      "title": "ExpressJs",
+      "catagories": "Back-End Web Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "09",
+      "title": "PostMan",
+      "catagories": "Tools For Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    },
+    {
+      "_id": "10",
+      "title": "Vs Code",
+      "catagories": "Tools For Development",
+      "skillVaule": "40",
+      "createdAt": "15-04-2022"
+    }
+  ]
+}

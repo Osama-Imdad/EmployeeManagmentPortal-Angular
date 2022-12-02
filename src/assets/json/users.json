@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "profileImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "Hamza",
+      "email": "hbk902447@gmail.com",
+      "role": "Admin",
+      "joiningDate": "1:14:2022",
+      "isActive": true
+    },
+    {
+      "profileImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "Ali",
+      "email": "ali902447@gmail.com",
+      "role": "Blogger",
+      "joiningDate": "2:14:2022",
+      "isActive": false
+    },
+    {
+      "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "Mahnoor",
+      "email": "mahnoor902447@gmail.com",
+      "role": "Editor",
+      "joiningDate": "3:14:2022",
+      "isActive": false
+    },
+    {
+      "profileImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "Usman",
+      "email": "usman902447@gmail.com",
+      "role": "Admin",
+      "joiningDate": "4:14:2022",
+      "isActive": true
+    },
+    {
+      "profileImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "Iqra",
+      "email": "iqra902447@gmail.com",
+      "role": "Orginixor",
+      "joiningDate": "5:14:2022",
+      "isActive": false
+    }
+  ]
+}
